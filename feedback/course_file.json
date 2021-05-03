@@ -1,0 +1,29 @@
+[{
+    "username": "mittalkashish2",
+    "password": "password@123",
+    "courses": [
+        {
+            "cid": "CSN401",
+            "cname": "Programming in C"},
+        
+        {
+            "cid": "CSN404",
+            "cname": "Data Structures and Algorithms"}
+        ]
+
+},
+{
+    "username": "mittalkashish3",
+    "password": "password@134",
+    "courses": [
+        {
+            "cid": "CSN401",
+            "cname": "Programming in C"},
+        
+        {
+            "cid": "CSN404",
+            "cname": "Data Structures and Algorithms"}
+        ]
+
+}]
+
