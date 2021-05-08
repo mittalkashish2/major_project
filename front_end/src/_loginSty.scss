@@ -118,10 +118,14 @@ $blue_theme: #70a1ff;
 .input-group_ {
     display: flex;
     flex-direction: column;
-    font-size: 23px;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(0, 255, 255);
+    font-size: 20px;
+    font-style: italic;
+    //text-decoration: underline;
+    text-decoration-color:rgb(248, 232, 4);
+    font-family: Comic Sans MS;
     margin-top: 5px;
-    margin-bottom: 50px;
+    margin-bottom: 5px;
 }
 .input-group {
     display: flex;
@@ -143,7 +147,7 @@ $blue_theme: #70a1ff;
 //Input
 .login-input_ {
     width: 30px;
-    height: 30px;
+    height: 20px;
     border: 1px solid green;
     padding: auto;
     margin-left: 50px;

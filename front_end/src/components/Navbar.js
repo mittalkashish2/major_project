@@ -5,7 +5,7 @@ const Navbar = () => {
   var user = window.localStorage.getItem('user');
   return (
     <nav className="navbar">
-    <h2 style={{ color: "red", fontWeight:"bolder",fontStyle: "italic",
+    <h2 style={{ color: "rgb(14, 240, 14)", fontWeight:"bolder",fontStyle: "italic",
     fontSize:"19px", fontFamily: "Cambria, Cochin, Georgia, Times, 'Times New Roman', serif"}}>
     Hello, {user}.</h2>
     <div className="links">
