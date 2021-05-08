@@ -149,3 +149,38 @@ app.post('/register',function(req,res){
     // res.send('Ok');
   })
   
+  app.post('/carray',function(req,res){
+
+    let data = fs.readFileSync("course_file.json");
+    var users = JSON.parse(data);
+    //console.log("1");
+    //console.log(users);
+    let result = users.find(user => user.username === req.body.username);
+    //console.log("2");
+    console.log(result);
+    if(result){
+      res.status(200).send({arr: result.courses});
+      //console.log("3");
+    }
+    else{
+      res.status(200).send({arr: []});
+      //console.log("4");
+    }
+
+  });
+
+  app.post('/feedback',function(req,res){
+    if(req.body.feedback[0] !== "$")
+    {
+      console.log(req.body.username);
+      console.log("No. of courses: " + req.body.feedback.length);
+      console.log(req.body.feedback);
+      res.send('Thanks for giving feedback!!');
+    }
+    else{
+      console.log(req.body.username);
+      console.log(req.body.feedback);
+      res.send('YOU HAVE NOT TAKEN ANY COURSE!!');
+    }
+
+  });

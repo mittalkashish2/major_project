@@ -1,0 +1,33 @@
+[{
+    "username": "mittalkashish2",
+    "courses": [
+        {
+            "cid": "CSN401",
+            "cname": "Programming in C"},
+        
+        {
+            "cid": "CSN402",
+            "cname": "Data Structures and Algorithms"},
+        {
+            "cid": "CSN403",
+            "cname": "Computer Networks"},
+        {
+            "cid": "CSN404",
+            "cname": "Discrete Structures in Mathematics"}
+        ]
+
+},
+{
+    "username": "mittalkashish3",
+    "courses": [
+        {
+            "cid": "CSN401",
+            "cname": "Programming in C"},
+        
+        {
+            "cid": "CSN404",
+            "cname": "Data Structures and Algorithms"}
+        ]
+
+}]
+
